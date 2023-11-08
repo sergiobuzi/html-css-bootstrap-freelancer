@@ -1,7 +1,7 @@
 /*stili generali di pagina*/
 
 .container-0{
-    min-height: 400px;
+    min-height: 250px;
     background-color:rgb(19, 218, 168);
     padding: 0;
 }
@@ -9,5 +9,25 @@
 nav{
     min-height: 50px;
     background-color: rgb(45, 46, 63);
+    color: white; 
 }
 
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.imgg{
+    width: 150px;
+    height: 150px;
+    padding-top: 20px
+}
+
+.row-starred{
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin-top: 7px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 19PX;
+}
