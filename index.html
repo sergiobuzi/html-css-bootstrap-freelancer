@@ -11,31 +11,26 @@
 <body>
 
     <header>
-                                <!--navbar-->
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm">
+            
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light ms-bg-rgbf">
 
-            <div class="container-fluid d-flex justify-content-around">
+            <div class="container-fluid">
                 
                 <a class="navbar-brand text-white" href="#"><strong>START BOOTSTRAP</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                </button>
+                <div class="collapse navbar-collapse ms-nav-vis" id="navbarNav">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
 
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Portfolio</a>
+                            <a class="nav-link text-white" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About</a>
+                            <a class="nav-link text-white" href="#about">About</a>
                         </li>
-
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact</a>
+                            <a class="nav-link text-white" href="#contact">Contact</a>
                         </li>
 
                     </ul>
@@ -45,6 +40,7 @@
             </div>
 
         </nav>
+        
 
                                     <!--jumbotron-->
 
@@ -68,7 +64,7 @@
 
                                         <!--portfolio-->
 
-        <div class="container-fluid d-flex justify-content-center align-items-center flex-column mt-5 mb-5">
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column mt-5 mb-5" id="portfolio">
 
             <div class="d-flex flex-column align-items-center">
 
@@ -141,7 +137,7 @@
 
                                 <!--about-->
 
-        <div class="container-fluid ms-bg-rgbg d-flex ">
+        <div class="container-fluid ms-bg-rgbg d-flex " id="about">
 
             <div class="d-flex flex-column align-items-center mt-5">
 
@@ -171,7 +167,7 @@
 
                                         <!--contact me-->
 
-        <div class="container-fluid d-flex flex-column mt-5 mb-5">
+        <div class="container-fluid d-flex flex-column mt-5 mb-5" id="contact">
 
             <div class="d-flex flex-column align-items-center">
 
