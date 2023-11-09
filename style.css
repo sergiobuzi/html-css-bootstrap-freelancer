@@ -4,6 +4,14 @@
     background-color:#1bbc9d;
 }
 
+.ms-bg-rgbb{
+    background-color:#3a556c ;
+}
+
+.ms-bg-rgbf{
+    background-color:#2d3e51 ;
+}
+
 nav{
     min-height: 50px;
     background-color: #2d3e51;
@@ -33,3 +41,16 @@ nav{
 .ms-border-white{
     border: 1px solid ;
 }
+
+.ms-form{
+    border: none;
+    border-bottom: 2px solid rgb(233, 233, 233);
+    border-radius: 0px;
+}
+
+.logo-size{
+    height: 25px;
+    width: 25px;
+}
+
+
